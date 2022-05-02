@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sistema de Lanchonete</title>
+	<style type="text/css">
+	table{
+		
+		text-align: center;
+	}
+	input[type=button] {
+            color: white;
+            background-color: blue;
+        }
+
+
+	</style>
+
+		<script type="text/javascript">
+			function stotal(){
+  			var a = parseFloat(document.getElementById('qtd').value);
+  			var b = parseFloat(document.getElementById('preco').value);
+  			var stotal = a * b;
+  			document.getElementById("stotal").innerHTML= stotal;
+			}
+			function total(){
+  			var a = parseFloat(document.getElementById('Qtd').value);
+  			var b = parseFloat(document.getElementById('Preco').value);
+  			var total =;
+  			document.getElementById("total").innerHTML= total;
+			}
+			function clean(){
+  			
+			}
+
+		</script>
+
+
+</head>
+<body>
+<h3>Comanda do cliente: </h3>
+	<table border="1">
+		<tr>
+			<td> # </td>
+			<td> <b>Descriçao </b></td>
+			<td><b>Qtd </b></td>
+			<td> <b>Preço </b> </td>
+			<td> <b>Subtotal </b> </td>
+		</tr>
+			<td> 1</td>
+			<td><select name="lanches">
+				<option value=""></option>
+				<option value="Misto Quente">Misto Quente</option>
+				<option value="Cachorro Quente">Cachorro Quente </option>
+				<option value="Hot Dog">Hot Dog</option>
+				<option value="X-Burguer">X-Burguer</option>
+				<option value="X-calabresa">X-calabresa</option>
+				<option value="X-bacon">X-bacon</option>
+				<option value="X-Eggs">X-Eggs</option>
+				<option value="Bauru">Bauru</option>
+				<option value="X-tudo">X-tudo</option>
+			</select>
+			</td>
+
+			<td>
+				<input type="number" id="qtd">
+			</td>
+
+			<td>
+				<input type="number" id="preco">
+			</td>
+
+			<td>
+			<p><input type="text" id="stotal" onblur="stotal()" readonly></p>
+
+			</td>
+		<tr>
+			<td> 2</td>
+			<td><select name="lanches">
+				<option value=""></option>
+				<option value="Misto Quente">Misto Quente</option>
+				<option value="Cachorro Quente">Cachorro Quente </option>
+				<option value="Hot Dog">Hot Dog</option>
+				<option value="X-Burguer">X-Burguer</option>
+				<option value="X-calabresa">X-calabresa</option>
+				<option value="X-bacon">X-bacon</option>
+				<option value="X-Eggs">X-Eggs</option>
+				<option value="Bauru">Bauru</option>
+				<option value="X-tudo">X-tudo</option>
+			</select>
+			</td>
+
+			<td>
+				<input type="number" id="Qtd">
+			</td>
+
+			<td>
+				<input type="number" id="Preco">
+			</td>
+
+			<td>
+			<input onblur="stotal()">
+
+			</td>
+
+		</tr>
+
+		<tr>
+			<td> 3</td>
+			<td><select name="lanches">
+				<option value=""></option>
+				<option value="Misto Quente">Misto Quente</option>
+				<option value="Cachorro Quente">Cachorro Quente </option>
+				<option value="Hot Dog">Hot Dog</option>
+				<option value="X-Burguer">X-Burguer</option>
+				<option value="X-calabresa">X-calabresa</option>
+				<option value="X-bacon">X-bacon</option>
+				<option value="X-Eggs">X-Eggs</option>
+				<option value="Bauru">Bauru</option>
+				<option value="X-tudo">X-tudo</option>
+			</select>
+			</td>
+
+			<td>
+				<input type="number" id="Qtd">
+			</td>
+
+			<td>
+				<input type="number" id="Preco">
+			</td>
+
+			<td>
+			<input onblur="stotal()">
+
+			</td>
+		</tr>
+
+		<tr>
+			<td> 4</td>
+			<td><select name="lanches">
+				<option value=""></option>
+				<option value="Misto Quente">Misto Quente</option>
+				<option value="Cachorro Quente">Cachorro Quente </option>
+				<option value="Hot Dog">Hot Dog</option>
+				<option value="X-Burguer">X-Burguer</option>
+				<option value="X-calabresa">X-calabresa</option>
+				<option value="X-bacon">X-bacon</option>
+				<option value="X-Eggs">X-Eggs</option>
+				<option value="Bauru">Bauru</option>
+				<option value="X-tudo">X-tudo</option>
+			</select>
+			</td>
+
+			<td>
+				<input type="number" id="Qtd">
+			</td>
+
+			<td>
+				<input type="number" id="Preco">
+			</td>
+
+			<td>
+			<input onblur="stotal()">
+
+			</td>
+		</tr>
+			
+
+		<tr>
+			<td> 5</td>
+			<td><select name="lanches">
+				<option value=""></option>
+				<option value="Misto Quente">Misto Quente</option>
+				<option value="Cachorro Quente">Cachorro Quente </option>
+				<option value="Hot Dog">Hot Dog</option>
+				<option value="X-Burguer">X-Burguer</option>
+				<option value="X-calabresa">X-calabresa</option>
+				<option value="X-bacon">X-bacon</option>
+				<option value="X-Eggs">X-Eggs</option>
+				<option value="Bauru">Bauru</option>
+				<option value="X-tudo">X-tudo</option>
+			</select>
+			</td>
+
+			<td>
+				<input type="number" id="Qtd">
+			</td>
+
+			<td>
+				<input type="number" id="Preco">
+			</td>
+
+			<td>
+			<input onblur="stotal()">
+
+			</td>
+		</tr>
+
+
+	</table>
+
+	<input type="button" onclick= "total()"value="Calcular total">
+	<input type="button" onclick= "clean()"value="Limpar Comanda">
+
+</body>
+</html>
